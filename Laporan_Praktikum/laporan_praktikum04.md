@@ -431,7 +431,7 @@ int main() {
 
 #### Output 1
 
-![Output Unguided 1](https://raw.githubusercontent.com/Farrel-13/Laporan_Praktikum04/master/output/output01.png)
+![Output Unguided 1](../output/output01.png)
 
 
 Program ini mengimplementasikan Singly Linked List menggunakan tiga file, yaitu `Singlylist.h` untuk deklarasi struktur dan fungsi, `Singlylist.cpp` untuk implementasi fungsi, serta `main.cpp` sebagai program utama. Fungsi `createList()` digunakan untuk membuat list kosong, sedangkan `alokasi()` membuat node baru yang berisi nilai integer. Fungsi `insertFirst()` menambahkan setiap node pada awal list sehingga urutan data menjadi `9 12 8 0 2`, sesuai dengan soal latihan Modul 4.
@@ -486,7 +486,7 @@ int main() {
 
 Output 2
 
-![Output Unguided 2](https://raw.githubusercontent.com/Farrel-13/Laporan_Praktikum04/master/output/output02.png)
+![Screenshot Output Unguided 2](https://raw.githubusercontent.com/Farrel-13/Laporan_Praktikum04/master/output/output02.png)
 
 
 Program ini melanjutkan implementasi Singly Linked List dengan melakukan tiga operasi penghapusan. Fungsi `deleteFirst()` menghapus node pertama yang bernilai 9, `deleteLast()` menghapus node terakhir yang bernilai 2, dan `deleteAfter()` menghapus node bernilai 8 yang berada setelah node 12. Hasilnya, list menyisakan nilai `12 0` dengan jumlah dua node. Selanjutnya, fungsi `deleteList()` menghapus seluruh node yang tersisa sehingga jumlah node menjadi nol.
